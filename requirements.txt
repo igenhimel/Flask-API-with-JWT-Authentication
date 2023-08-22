@@ -1,0 +1,7 @@
+Flask==2.1.0
+Flask-RESTx==1.1.0
+Flask-Swagger-UI==4.11.1
+psycopg2-binary==2.9.7  # For PostgreSQL database connection
+PyJWT==2.8.0
+elasticsearch==8.9.0
+flask_jwt_extended==4.5.2
