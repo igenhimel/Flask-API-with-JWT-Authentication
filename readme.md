@@ -114,7 +114,7 @@ Before you begin, ensure you have the following prerequisites installed:
 
 ### Configuration
 
-1. Configure your PostgreSQL and Elasticsearch connections in the appropriate files (`models/db.py` for PostgreSQL and `elasticsearch.txt` for Elasticsearch).
+1. Configure your PostgreSQL and Elasticsearch connections in the appropriate files (`models/db.py`).
 
 2. Set your JWT secret key in the `app.config['JWT_SECRET_KEY']` field in `app.py`.
 
