@@ -1,3 +1,5 @@
+Absolutely, here's the README with improved formatting:
+
 # Flask API with JWT Authentication
 
 This repository contains a Flask-based RESTful API for property search and user management, along with JWT-based authentication.
@@ -18,7 +20,7 @@ Welcome to the Flask API with JWT Authentication project. This API provides endp
 
 ### User Registration
 
-Endpoint: `/api/signup`
+**Endpoint:** `/api/signup`
 
 - **Method:** POST
 - **Description:** Register a new user.
@@ -32,7 +34,7 @@ Endpoint: `/api/signup`
 
 ### User Login
 
-Endpoint: `/api/login`
+**Endpoint:** `/api/login`
 
 - **Method:** POST
 - **Description:** User login.
@@ -45,7 +47,7 @@ Endpoint: `/api/login`
 
 ### Property Search
 
-Endpoint: `/api/search`
+**Endpoint:** `/api/search`
 
 - **Method:** GET
 - **Description:** Search and sort property listings.
@@ -63,11 +65,19 @@ Endpoint: `/api/search`
 ## Setup
 
 1. Clone the repository from GitHub:
-git clone https://github.com/igenhimel/python-flask-W3.git
-2. Navigate to the project directory:
-cd python-flask-W3
+   ```sh
+   git clone https://github.com/igenhimel/python-flask-W3.git
+   ```
 
-3. Install the required packages using `pip install -r requirements.txt`.
+2. Navigate to the project directory:
+   ```sh
+   cd python-flask-W3
+   ```
+
+3. Install the required packages using:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 4. Configure the PostgreSQL and Elasticsearch connections in `models/db.py`.
 
@@ -75,7 +85,11 @@ cd python-flask-W3
 
 ## Usage
 
-1. Run the Flask app using `python app.py`.
+1. Run the Flask app using:
+   ```sh
+   python app.py
+   ```
+
 2. Access the Swagger UI documentation at `http://localhost:5000`.
 
 ## Technologies Used
@@ -90,4 +104,4 @@ cd python-flask-W3
 
 The API documentation is generated using Swagger UI. You can access it by visiting `http://localhost:5000`.
 
-
+---
