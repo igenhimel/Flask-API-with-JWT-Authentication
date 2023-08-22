@@ -10,10 +10,10 @@ Welcome to the Flask API with JWT Authentication project. This API provides endp
 ## Table of Contents
 
 - [API Endpoints](#api-endpoints)
-- [Technologies Used](#Technologies-Used)
-- [Flask Project Setup and Installation Guide](#Flask-Project-Setup-and-Installation-Guide)
-- [Running PostgreSQL with Docker Compose & Import Data](#Running-PostgreSQL-with-Docker-Compose-&-Import-Data)
-- [Running Elasticsearch with Docker Compose & Import Data](#Running-Elasticsearch-with-Docker-Compose-&-Import-Data)
+- [Technologies Used](#technologies-used)
+- [Flask Project Setup](#flask-project-setup)
+- [Running PostgreSQL](#running-postgresql)
+- [Running Elasticsearch](#running-elasticsearch)
 - [OpenAPI Documentation](#openapi-documentation)
 
 ## API Endpoints
