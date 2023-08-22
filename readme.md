@@ -1,4 +1,3 @@
-Absolutely, here's the README with improved formatting:
 
 # Flask API with JWT Authentication
 
@@ -89,8 +88,8 @@ Before you begin, ensure you have the following prerequisites installed:
 
 1. Clone the repository from GitHub:
    ```bash
-   git clone https://github.com/YourUsername/YourFlaskProject.git
-   cd YourFlaskProject
+   git clone https://github.com/igenhimel/python-flask-W3.git
+   cd python-flask-W3
    ```
 
 2. Create a virtual environment using `venv`:
