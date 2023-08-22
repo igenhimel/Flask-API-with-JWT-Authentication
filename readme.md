@@ -192,11 +192,6 @@ Before you begin, ensure you have the following prerequisites installed:
 
 4. Press the "Play" button to run the code.
 
-Remember to replace placeholders like IP addresses, usernames, passwords, and other configurations with the actual values from your setup.
-
-
-Sure, here's the process to include in your GitHub README for setting up and installing a Flask project:
-
 
 ## OpenAPI Documentation
 
