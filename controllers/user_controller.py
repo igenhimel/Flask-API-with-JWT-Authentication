@@ -61,8 +61,9 @@ class UserController(Resource):
             return {'error': 'Username cannot contain whitespace characters'}, 400
 
         # Validate email address
-        if not re.match(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$', email):
-            return {'error': 'Invalid email address'}, 400
+        if not re.match(r'^[a-zA-Z][a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$', email):
+           return {'error': 'Invalid email address'}, 400
+
 
         hashed_password = hashlib.sha256(raw_password.encode()).hexdigest()
 
@@ -94,7 +95,7 @@ class UserLogin(Resource):
         User Login API
         """
         args = login_parser.parse_args()
-        username = args['username'].lower()
+        username = args['username'].lower() if args['username'] is not None else None
         raw_password = args['raw_password']
 
         if not username or not raw_password:
