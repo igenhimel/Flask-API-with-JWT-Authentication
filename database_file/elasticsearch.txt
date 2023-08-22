@@ -1,0 +1,129 @@
+
+POST /property/_doc/1
+{
+  "title": "Seaside Resort",
+  "amenities": ["Beach Access", "Pool", "Garden"],
+  "price": 750000,
+  "location": "Coastal Area"
+}
+
+
+POST /property/_doc/2
+{
+  "title": "Seaside Grand Villa",
+  "amenities": ["Swimming Pool", "Gym", "Parking"],
+  "price": 500000,
+  "location": "Coastal Area"
+}
+
+POST /property/_doc/3
+{
+  "title": "Seaside Villa",
+  "amenities": ["Beach Access", "Pool", "Garden"],
+  "price": 950000,
+  "location": "City Center"
+}
+
+
+POST /property/_doc/3
+{
+  "title": "Modern Condo with a View",
+  "amenities": ["Swimming Pool", "Gym", "Parking"],
+  "price": 250000,
+  "location": "City Center"
+}
+
+POST /property/_doc/4
+{
+  "title": "Cozy Family Home",
+  "amenities": ["Garden", "Fireplace", "Garage"],
+  "price": 350000,
+  "location": "Suburb"
+}
+
+POST /property/_doc/5
+{
+  "title": "Luxury Penthouse",
+  "amenities": ["Spa", "Private Terrace", "Concierge"],
+  "price": 800000,
+  "location": "Downtown"
+}
+
+POST /property/_doc/6
+{
+  "title": "Charming Cottage",
+  "amenities": ["Lake View", "Wood-burning Stove"],
+  "price": 180000,
+  "location": "Countryside"
+}
+
+POST /property/_doc/7
+{
+  "title": "Urban Studio Apartment",
+  "amenities": ["Security", "Lounge", "Laundry"],
+  "price": 120000,
+  "location": "Metropolitan Area"
+}
+
+POST /property/_doc/8
+{
+  "title": "Seaside Villa",
+  "amenities": ["Beach Access", "Pool", "Garden"],
+  "price": 950000,
+  "location": "Coastal Area"
+}
+
+POST /property/_doc/9
+{
+  "title": "Rustic Mountain Retreat",
+  "amenities": ["Hiking Trails", "Fire Pit"],
+  "price": 300000,
+  "location": "Mountain Range"
+}
+
+POST /property/_doc/10
+{
+  "title": "Historic Townhouse",
+  "amenities": ["Vintage Architecture", "Courtyard"],
+  "price": 420000,
+  "location": "Historic District"
+}
+
+POST /property/_doc/11
+{
+  "title": "Elegant High-Rise",
+  "amenities": ["Sky Lounge", "Fitness Center", "Concierge"],
+  "price": 620000,
+  "location": "City Skyline"
+}
+
+POST /property/_doc/12
+{
+  "title": "Quaint Countryside Cabin",
+  "amenities": ["Peaceful Surroundings", "Deck"],
+  "price": 200000,
+  "location": "Rural Area"
+}
+
+
+
+POST /property/_doc/13
+{
+  "title": "Elegant High",
+  "amenities": ["Peaceful Surroundings", "Deck"],
+  "price": 100000,
+  "location": "Rural Area"
+}
+
+
+
+POST /property/_doc/14
+{
+  "title": "Elegant High 2",
+  "amenities": ["Peaceful Surroundings", "Deck"],
+  "price": 120000,
+  "location": "Rural Area"
+}
+
+
+

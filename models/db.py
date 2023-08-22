@@ -7,9 +7,9 @@ class Database:
     def __init__(self):
         self.connection = psycopg2.connect(
             host='localhost',
-            dbname='Property',
-            user='myuser',
-            password='mypassword'
+            dbname='Property', #your database name
+            user='myuser',     #your database username
+            password='mypassword' #your database password
         )
         self.cursor = self.connection.cursor()
 
