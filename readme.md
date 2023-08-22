@@ -13,7 +13,6 @@ Welcome to the Flask API with JWT Authentication project. This API provides endp
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [OpenAPI Documentation](#openapi-documentation)
-- [Author](#author)
 
 ## API Endpoints
 
